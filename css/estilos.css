@@ -30,6 +30,9 @@ p,a{
     font-family: var(--parrafos);
 }
 
+.ocultar{
+    display: none;
+}
 
 .encabezado{
     background-image: url('https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -41,9 +44,26 @@ p,a{
 
 }
 
+.logo h2{
+    font-size: 3rem;
+}
+
+.logo h2 span{
+    color: var(--azulClaro);
+}
+
 .contenido-navegacion{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: var(--blanco);
+    box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
+}
+
+.hamburguesa span{
+    width: 5rem;
+    height: 1rem;
+    border: 3px solid white;
+    background-color: var(--oscuro);
+    display: block;
 }
