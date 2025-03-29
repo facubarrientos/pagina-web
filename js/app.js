@@ -1,4 +1,5 @@
 const hamburguesa = document.querySelector('.hamburguesa');
+const navegacion = document.querySelector('.navegacion');
 
 document.addEventListener('DOMContentLoaded', ()=>{
     mostrarMenu();
@@ -6,6 +7,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 function mostrarMenu(){
     hamburguesa.addEventListener('click',()=>{
-        console.log('clickando....');
-    })
+        navegacion.classList.toggle('ocultar');
+    });
 }

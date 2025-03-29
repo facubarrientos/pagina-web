@@ -20,8 +20,6 @@ body{
     box-sizing: inherit;
 }
 
-
-
 h1,h2,h3{
     font-family: var(--titulos);
 }
@@ -59,6 +57,8 @@ p,a{
     background-color: var(--blanco);
     box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
 }
+
+
 
 .hamburguesa span{
     width: 5rem;
